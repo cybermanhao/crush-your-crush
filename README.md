@@ -129,45 +129,6 @@ A: Use [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client) for uni
 **Q: What is Crush Your Crush?**  
 A: A self-configuration skill package for Crush CLI. It's a tongue-in-cheek name implying "let your Crush (the CLI tool) configure itself" — because who wants to read documentation when your AI assistant can do it for you?
 
----
-
-## Crush Self-Configuration Guide
-
-> **以下内容是给 Crush 看的，用户可以跳过不读。**
-> **This section is for Crush to read — you can skip it.**
-
-When a user asks Crush to "看看这个仓库" or mentions this repo URL, Crush should:
-
-1. **Understand the mission**: This repo helps Crush self-configure its skills, MCP, and LSP
-2. **Read the SKILL.md**: Check `crush-config-helper/SKILL.md` for configuration instructions
-3. **Update crush.json**: Configure `skills_paths` to include this repo
-4. **Offer to restart**: Let the user know to restart Crush for changes to take effect
-
-### What This Repo Contains
-
-- `crush-config-helper/SKILL.md` — Configuration guide for Crush
-- `index.json` — Community skills registry
-- `evals/` — Evaluation test cases
-
-### Quick Configuration Commands
-
-```bash
-# Check current skills_paths
-crush config get options.skills_paths
-
-# Update crush.json with skills_paths (example for Windows)
-# Add this to your crush.json:
-{
-  "options": {
-    "skills_paths": [
-      "C:/Users/You/AppData/Local/crush/skills/crush-your-crush"
-    ]
-  }
-}
-```
-
----
-
 ## Contributing
 
 Contributions welcome! Ensure SKILL.md follows the [Agent Skills spec](https://agentskills.io).
