@@ -1,20 +1,25 @@
 # Crush Your Crush 💕
 
 <p align="center">
-    <a href="https://github.com/cybermanhao/crush-your-crush"><img width="500" alt="Crush Your Crush" src="https://github.com/user-attachments/assets/cf8ca3ce-8b02-43f0-9d0f-5a331488da4b" /></a><br />
-    <a href="https://github.com/cybermanhao/crush-your-crush/releases"><img src="https://img.shields.io/github/release/cybermanhao/crush-your-crush" alt="Latest Release"></a>
-    <a href="https://github.com/cybermanhao/crush-your-crush/stargazers"><img src="https://img.shields.io/github/stars/cybermanhao/crush-your-crush" alt="Stars"></a>
-    <a href="https://github.com/cybermanhao/crush-your-crush/network/members"><img src="https://img.shields.io/github/forks/cybermanhao/crush-your-crush" alt="Forks"></a>
+    <img width="500" alt="Crush Your Crush" src="https://github.com/user-attachments/assets/cf8ca3ce-8b02-43f0-9d0f-5a331488da4b" /><br />
+    <a href="https://github.com/cybermanhao/crush-your-crush/releases"><img src="https://img.shields.io/github/release/cybermanhao/crush-your-crush?style=flat-square&logo=github&color=7C3AED" alt="Latest Release"></a>
+    <a href="https://github.com/cybermanhao/crush-your-crush/stargazers"><img src="https://img.shields.io/github/stars/cybermanhao/crush-your-crush?style=flat-square&logo=github&color=8B5CF6" alt="Stars"></a>
+    <a href="https://github.com/cybermanhao/crush-your-crush/network/members"><img src="https://img.shields.io/github/forks/cybermanhao/crush-your-crush?style=flat-square&logo=github&color=A78BFA" alt="Forks"></a>
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Self-Configuring-7C3AED?style=for-the-badge" alt="Self Configuring">
+    <img src="https://img.shields.io/badge/Agent-Skills-8B5CF6?style=for-the-badge" alt="Agent Skills">
+    <img src="https://img.shields.io/badge/MCP-Ready-A78BFA?style=for-the-badge" alt="MCP Ready">
 </p>
 
 <p align="center">
     不会配置 Crush？不用担心，Crush 已经是个成熟的 Agent 了，应该学会自己配置自己！<br />
-    Don't know how to configure Crush? Crush is a mature agent now — it should learn to configure itself!<br />
-    Crushの設定方法がわからない？心配しないで、Crushはもう成熟したAgentなので、自分の設定を学ぶべきです！
+    Don't know how to configure Crush? Crush is a mature agent now — it should learn to configure itself!
 </p>
 
 <p align="center">
-    <img width="700" alt="Self-configuration Demo" src="https://github.com/user-attachments/assets/58280caf-851b-470a-b6f7-d5c4ea8a1968" />
+    <img width="700" alt="Demo" src="https://github.com/user-attachments/assets/58280caf-851b-470a-b6f7-d5c4ea8a1968" />
 </p>
 
 ---
@@ -47,7 +52,7 @@ And Crush will 💕
 | Skill | Description |
 |-------|-------------|
 | [crush-config-helper](crush-config-helper/) | Configure Crush: Skills, MCP, LSP, env vars |
-| [find-skills](find-skills/) | Discover and install Agent Skills |
+| [find-skills](find-skills/) | Discover Agent Skills → `npx skills add vercel-labs/skills@find-skills` |
 | [skill-creator](index.json) | Create new skills for your workflow |
 | [mcp-builder](index.json) | Build MCP servers with FastMCP |
 
@@ -122,6 +127,9 @@ A: Yes, run `exit` then restart Crush for new skills to take effect.
 **Q: How do I manage multiple MCP servers?**  
 A: Consider using [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client) for unified MCP server management.
 
+**Q: What is Crush Your Crush?**  
+A: A self-configuration skill package for Crush CLI. It's a tongue-in-cheek name implying "let your Crush (the CLI tool) configure itself" — because who wants to read documentation when your AI assistant can do it for you?
+
 ## Contributing
 
 Contributions welcome! Ensure SKILL.md follows the [Agent Skills spec](https://agentskills.io).
@@ -187,10 +195,5 @@ git clone https://github.com/cybermanhao/crush-your-crush.git "$env:LOCALAPPDATA
 ---
 
 <p align="center">
-    <a href="https://charm.land/"><img alt="Charm logo" width="300" src="https://stuff.charm.sh/charm-banner-next.jpg" /></a>
+    Made with 💜 by <a href="https://github.com/cybermanhao">cybermanhao</a>
 </p>
-
-Part of [Charm](https://charm.land) · Made with 💘 by [cybermanhao](https://github.com/cybermanhao)
-
-<!--prettier-ignore-->
-Charm热爱开源 • Charm loves open source
