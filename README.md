@@ -1,43 +1,22 @@
 # Crush Skills
 
-Skills for developing [Crush](https://github.com/charmbracelet/crush) - a terminal-based AI coding assistant built by Charm.
+面向 [Crush](https://github.com/charmbracelet/crush) 用户的实用技能集合。
 
-## Structure
+## 包含技能
 
-```
-crush-skills/
-├── charm-libraries/     # Skills for Charm's Go libraries
-│   ├── catwalk/        # Provider sync & embedded providers
-│   ├── fantasy/        # LLM provider abstraction
-│   ├── glamour/        # Markdown rendering
-│   └── lipgloss/       # Terminal styling
-├── golang/             # Skills for Go development
-│   ├── golang-pro/     # Go best practices
-│   ├── bubbletea/      # TUI framework
-│   ├── sqlc/           # SQL code generation
-│   ├── cobra-viper/    # CLI framework
-│   ├── testing/         # Testing strategies
-│   └── testing-strategies/
-├── crush/              # Crush-specific skills
-│   ├── crush-config-helper/  # Configure Crush settings
-│   ├── skill-creator/        # Create new skills
-│   └── find-skills/          # Discover available skills
-└── README.md
-```
+| 技能 | 说明 |
+|------|------|
+| [crush-config-helper](crush-config-helper/) | 配置 Crush：Skills、MCP、LSP、环境变量 |
+| [find-skills](find-skills/) | 发现和安装新的 Agent Skills |
 
-## Installation
-
-Clone to your Crush skills directory:
+## 安装
 
 ```bash
-# Unix/macOS
+# 克隆到 Crush skills 目录
 git clone https://github.com/cybermanhao/crush-skills.git ~/.config/crush/skills
-
-# Windows (PowerShell)
-git clone https://github.com/cybermanhao/crush-skills.git "$env:LOCALAPPDATA\crush\skills"
 ```
 
-Or add to your `crush.json`:
+或添加到 `crush.json`:
 
 ```json
 {
@@ -50,18 +29,23 @@ Or add to your `crush.json`:
 }
 ```
 
-## Requirements
+## 功能
 
-- [Crush CLI](https://github.com/charmbracelet/crush)
-- Go 1.21+ (for Go-related skills)
+### crush-config-helper
+- 配置 MCP 服务器
+- 设置 LSP 语言服务器
+- 管理 Skills 路径
+- 调试配置问题
 
-## Contributing
+### find-skills
+- 搜索 skills.sh 上的可用技能
+- 一键安装技能
+- 管理已安装技能
 
-Contributions welcome! Please ensure:
-- SKILL.md follows the [Agent Skills spec](https://agentskills.io)
-- Name matches directory name
-- Description is under 1024 characters
+## 贡献
 
-## License
+欢迎贡献！请确保 SKILL.md 符合 [Agent Skills 规范](https://agentskills.io)。
+
+## 许可证
 
 MIT
