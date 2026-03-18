@@ -1,6 +1,8 @@
 # Crush Your Crush 🖥️💕
 
-> 让你的 Crush 自己配置自己 / Let your Crush configure itself / Crushに自分を設定させる
+> 不会配置Crush？不用担心，Crush已经是个成熟的Agent了，应该学会自己配置自己！
+> Don't know how to configure Crush? Don't worry, Crush is a mature agent now — it should learn to configure itself!
+> Crushの設定方法がわからない？心配しないで、Crushはもう成熟したAgentなので、自分の設定を学ぶべきです！
 
 English | [中文](#中文) | [日本語](#日本語)
 
@@ -10,36 +12,15 @@ English | [中文](#中文) | [日本語](#日本語)
 
 ### Quick Start
 
-Let Crush configure itself automatically:
+Just tell Crush:
 
-```
-Clone repo → Tell Crush to set itself up → Restart
-```
+> "看看这个仓库 https://github.com/cybermanhao/crush-your-crush，他就会自我攻略了！"
 
-#### Step 1: Clone the repository
-
-```bash
-git clone https://github.com/cybermanhao/crush-your-crush.git "$env:LOCALAPPDATA\crush\skills"
-```
-
-#### Step 2: Let Crush configure itself
-
-After cloning, tell Crush:
-
-> "Please read the README.md in the skills directory and configure yourself according to the instructions. Restart Crush when done."
-
-Crush will automatically:
-1. Read the skills configuration
-2. Update `skills_paths` in `crush.json`
-3. Apply MCP/LSP configurations
-
-#### Step 3: Restart Crush
-
-```bash
-exit
-# Then restart
-crush
-```
+Crush will:
+1. Read this README and understand its mission
+2. Clone/install the skills automatically
+3. Configure itself
+4. Tell you when it's done 💕
 
 ### Relationship with Claude Code Skills
 
@@ -145,36 +126,15 @@ MIT
 
 ### 快速开始
 
-让 Crush 自动完成配置：
+只需要告诉 Crush：
 
-```
-克隆仓库 → 让 Crush 自己配置 → 重启
-```
-
-#### 第一步：克隆仓库
-
-```bash
-git clone https://github.com/cybermanhao/crush-your-crush.git "$env:LOCALAPPDATA\crush\skills"
-```
-
-#### 第二步：让 Crush 自己配置
-
-克隆完成后，告诉 Crush：
-
-> "请读取 skills 目录中的 README.md，然后按照说明配置你自己。完成后重启 Crush。"
+> "看看这个仓库 https://github.com/cybermanhao/crush-your-crush，他就会自我攻略了！"
 
 Crush 会自动：
-1. 读取 skills 配置
-2. 更新 `crush.json` 中的 `skills_paths`
-3. 应用 MCP/LSP 配置
-
-#### 第三步：重启 Crush
-
-```bash
-exit
-# 然后重新启动
-crush
-```
+1. 阅读 README，理解自己的使命
+2. 自动克隆/安装 skills
+3. 配置自己
+4. 完成后告诉你 💕
 
 ### 与 Claude Code Skills 的关系
 
@@ -229,36 +189,15 @@ MIT
 
 ### クイックスタート
 
-Crush に自動で себяを設定させます：
+Crush にこう言ってください：
 
-```
-リポジトリをクローン → Crush に設定させる → 再起動
-```
-
-#### ステップ1：リポジトリをクローン
-
-```bash
-git clone https://github.com/cybermanhao/crush-your-crush.git "$env:LOCALAPPDATA\crush\skills"
-```
-
-#### ステップ2：Crush に設定させる
-
-クローンが完了したら、Cruch にこのように言ってください：
-
-> "skills ディレクトリ内の README.md を読んで、手順に従って自分を設定してください。完了したら Crush を再起動してください。"
+> "このレポジトリを見てね https://github.com/cybermanhao/crush-your-crush、自動的に自分を設定するから！"
 
 Crush は自動的に：
-1. skills の設定を読み込む
-2. `crush.json` の `skills_paths` を更新する
-3. MCP/LSP の設定を適用する
-
-#### ステップ3：Crush を再起動
-
-```bash
-exit
-# そして再起動
-crush
-```
+1. README を読んで、自分の使命を理解する
+2. skills を自動的にインストール
+3. 自分を設定する
+4. 完了したら教えてくれる 💕
 
 ### Claude Code Skills との関係
 
