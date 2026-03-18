@@ -37,10 +37,10 @@ git clone https://github.com/cybermanhao/crush-skills.git ~/.config/crush/skills
 ### 方式三：使用 skills CLI（需要发布后）
 
 ```bash
-npx skills add owner/repo@skill-name -g
+npx skills add owner/repo@skill-name -a crush -y
 ```
 
-`-g` 安装到全局目录 `~/.claude/skills/`。
+`-a crush` 指定安装到 Crush agent，`-y` 跳过确认。
 
 安装后重启 Crush 即可使用。
 
