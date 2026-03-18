@@ -47,6 +47,8 @@ And Crush will 💕
 > **以下内容可以选择性跳过 💕**
 > **This section is optional — skip if you just want Crush to do it!**
 > **このセクションはオプションです — Crushに任せたい場合はスキップ！**
+>
+> This repo uses `crush-config-helper` skill to auto-configure Crush, plus provides community skills (find-skills, skill-creator, mcp-builder) for download.
 
 ## Included Skills
 
@@ -170,6 +172,8 @@ Crush 会自动：
 > [!TIP]
 > **以下内容可以选择性跳过 💕**
 > 如果你想让 Crush 自动完成配置，可以跳过这部分！
+>
+> 本项目使用 `crush-config-helper` skill 帮助用户自动配置 Crush，同时也提供社区实用 skills（find-skills、skill-creator、mcp-builder）的下载方式。
 
 ### 与 Claude Code Skills 的关系
 
@@ -220,6 +224,8 @@ Crush は自動的に：
 > [!TIP]
 > **このセクションはオプションです 💕**
 > Crush に自動的に設定させたい場合は、このセクションをスキップできます！
+>
+> このレポジトリは `crush-config-helper` スキルを使用してCrushの自動設定を行い、同時にコミュニティの実用スキル（find-skills、skill-creator、mcp-builder）のダウンロードも提供しています。
 
 ### 含まれるスキル
 
