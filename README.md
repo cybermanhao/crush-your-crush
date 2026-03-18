@@ -11,23 +11,36 @@
 
 ## 安装
 
+### 方式一：直接克隆到 Crush skills 目录
+
 ```bash
-# 克隆到 Crush skills 目录
+# Windows
+git clone https://github.com/cybermanhao/crush-skills.git "$env:LOCALAPPDATA\crush\skills"
+
+# Unix/macOS
 git clone https://github.com/cybermanhao/crush-skills.git ~/.config/crush/skills
 ```
 
-或添加到 `crush.json`:
+### 方式二：添加到 skills_paths（如果不在默认目录）
 
 ```json
 {
   "options": {
     "skills_paths": [
-      "~/.config/crush/skills",
-      "path/to/crush-skills"
+      "C:/Users/你的用户名/AppData/Local/crush/skills",
+      "C:/Users/你的用户名/.agents/skills"
     ]
   }
 }
 ```
+
+### 方式三：使用 skills CLI（需要发布后）
+
+```bash
+npx skills add https://github.com/cybermanhao/crush-skills -g -y
+```
+
+安装后重启 Crush 即可使用。
 
 ## 功能
 
