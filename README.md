@@ -98,6 +98,23 @@ npx skills add cybermanhao/crush-your-crush -a crush -y
 }
 ```
 
+### MCP Server Management
+
+For unified MCP server management and easy debugging, consider using [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client):
+
+> OpenMCP Client is a unified interface for managing MCP servers across different agents (Coming soon as a skill!)
+
+```bash
+# Install OpenMCP Client
+npx openmcp-client@latest
+
+# Use it to:
+# - Add/remove MCP servers
+# - Test MCP connections
+# - Debug MCP issues
+# - Manage configs across agents
+```
+
 ### Common LSP Configurations
 
 ```json
@@ -120,7 +137,7 @@ A: No. Crush loads skills from separate `skills_paths`, independent from Claude 
 A: Yes, run `exit` then restart Crush for new skills to take effect.
 
 **Q: How do I manage multiple MCP servers?**  
-A: Consider using [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client) for unified MCP server management.
+A: Use [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client) for unified MCP server management — coming soon as a skill!
 
 **Q: What is Crush Your Crush?**  
 A: A self-configuration skill package for Crush CLI. It's a tongue-in-cheek name implying "let your Crush (the CLI tool) configure itself" — because who wants to read documentation when your AI assistant can do it for you?

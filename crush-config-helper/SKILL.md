@@ -17,6 +17,7 @@ This skill helps you configure Crush CLI's self-configuration features: Skills, 
 | Debug issues | Use `--debug` flag or `debug_lsp: true` |
 | Disable tools | Set `options.disabled_tools` |
 | Find config location | Check **Configuration File Locations** |
+| Manage MCP servers | Use [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client) for unified management |
 
 ## Configuration File Locations
 
@@ -406,6 +407,7 @@ crush --debug
 2. Verify JSON syntax in crush.json
 3. Run `crush logs` to see MCP startup errors
 4. Try stdio type first (most reliable)
+5. Use [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client) for unified MCP management and debugging (coming soon as a skill!)
 
 ### LSP Issues
 1. Run `crush --debug` to see LSP connection logs

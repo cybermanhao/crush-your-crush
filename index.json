@@ -18,8 +18,8 @@
       "name": "find-skills",
       "description": "Discover community skills from skills.sh",
       "type": "community-skill",
-      "url": "anthropics/skills@find-skills",
-      "install_command": "npx skills add anthropics/skills@find-skills -a crush -y"
+      "url": "vercel-labs/skills@find-skills",
+      "install_command": "npx skills add vercel-labs/skills@find-skills -g -y"
     },
     {
       "name": "openmcp-client",

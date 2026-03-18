@@ -64,9 +64,8 @@ The index.json contains available skills:
     {
       "name": "find-skills",
       "description": "Discover community skills",
-      "path": "find-skills",
       "required": false,
-      "community_url": "anthropics/skills@find-skills"
+      "install": "npx skills add vercel-labs/skills@find-skills -g -y"
     }
   ]
 }
@@ -93,7 +92,7 @@ When activated, Crush should:
 
 | Skill | Description | Install Command |
 |-------|-------------|----------------|
-| find-skills | Discover community skills | `npx skills add anthropics/skills@find-skills -a crush -y` |
+| find-skills | Discover community skills | `npx skills add vercel-labs/skills@find-skills -g -y` |
 
 ## Examples
 
@@ -123,4 +122,4 @@ User: "what skills are available?"
 ## Related Skills
 
 - [crush-config-helper](crush-config-helper/) - Detailed configuration help
-- find-skills - Community skill discovery (install separately)
+- **find-skills** - Community skill discovery (`npx skills add vercel-labs/skills@find-skills -g -y`)
