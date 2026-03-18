@@ -19,7 +19,7 @@
 
 ---
 
-## Quick Start | [中文](#快速开始) | [日本語](#クイックスタート)
+## Quick Start | [中文](#中文) | [日本語](#日本語)
 
 Just tell Crush:
 
