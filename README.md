@@ -19,7 +19,7 @@
 
 ---
 
-## Quick Start | [中文](#中文) | [日本語](#日本語)
+## Quick Start | [中文](#快速开始) | [日本語](#クイックスタート)
 
 Just tell Crush:
 
@@ -33,6 +33,11 @@ And Crush will 💕
 2. Clone/install skills automatically
 3. Configure itself
 4. Tell you when it's done
+
+> [!TIP]
+> **以下内容人类用户可以跳过 💕**
+> **Humans can skip this section — it's for Crush.**
+> **人間はこのセクションをスキップできます 💕**
 
 ## Features
 
@@ -52,8 +57,6 @@ And Crush will 💕
 | [mcp-builder](index.json) | Build MCP servers with FastMCP |
 
 ## Installation
-
-### Installation
 
 ```bash
 # For Claude Code users
@@ -147,7 +150,16 @@ MIT
 看看这个仓库 https://github.com/cybermanhao/crush-your-crush
 ```
 
-Crush 会自动完成配置 💕
+Crush 会自动：
+
+1. 阅读 README，理解自己的使命
+2. 自动克隆/安装 skills
+3. 配置自己
+4. 完成后告诉你 💕
+
+> [!TIP]
+> **以下内容人类用户可以跳过 💕**
+> Crush 会自动完成以上步骤，人类用户不需要手动操作。
 
 ### 与 Claude Code Skills 的关系
 
@@ -179,7 +191,16 @@ Crush にこう言ってください：
 このレポジトリを見てね https://github.com/cybermanhao/crush-your-crush
 ```
 
-Crush は自動的に自分を設定します 💕
+Crush は自動的に：
+
+1. README を読んで、自分の使命を理解する
+2. skills を自動的にインストール
+3. 自分を設定する
+4. 完了したら教えてくれる 💕
+
+> [!TIP]
+> **人間はこのセクションをスキップできます 💕**
+> Crush が自動的に上記の手順を実行するので、人間が手动で操作する必要はありません。
 
 ### 含まれるスキル
 
