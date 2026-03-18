@@ -34,18 +34,19 @@ And Crush will 💕
 3. Configure itself
 4. Tell you when it's done
 
+### What This Repo Provides
+
+| | Description |
+|---|---|
+| **🧩 Agent Skills** | Extend Crush with reusable skill packages (find-skills, skill-creator, mcp-builder...) |
+| **🔧 MCP Servers** | Model Context Protocol servers for GitHub, filesystem, and more |
+| **💻 LSP Integration** | Language Server Protocol setup for better code intelligence |
+| **🚀 OpenMCP Client** | [Coming soon](https://github.com/LSTM-Kirigaya/openmcp-client) — Unified MCP management |
+
 > [!TIP]
-> **以下内容人类用户可以跳过 💕**
-> **Humans can skip this section — it's for Crush.**
-> **人間はこのセクションをスキップできます 💕**
-
-## Features
-
-- **🤖 Self-Configuration**: Crush learns to configure itself from this repo
-- **🧩 Agent Skills**: Extend Crush capabilities with reusable skill packages
-- **🔧 MCP Support**: Easy Model Context Protocol server configuration
-- **💻 LSP Integration**: Language Server Protocol setup for better code intelligence
-- **🌐 Community Skills**: Curated list of community skills ready to install
+> **以下内容可以选择性跳过 💕**
+> **This section is optional — skip if you just want Crush to do it!**
+> **このセクションはオプションです — Crushに任せたい場合はスキップ！**
 
 ## Included Skills
 
@@ -157,9 +158,18 @@ Crush 会自动：
 3. 配置自己
 4. 完成后告诉你 💕
 
+### 这个仓库提供什么
+
+| | 说明 |
+|---|---|
+| **🧩 Agent Skills** | 扩展 Crush 能力的技能包（find-skills、skill-creator、mcp-builder...） |
+| **🔧 MCP 服务器** | GitHub、文件系统等的 Model Context Protocol 服务器 |
+| **💻 LSP 集成** | Language Server Protocol 配置，更好的代码理解 |
+| **🚀 OpenMCP Client** | [即将推出](https://github.com/LSTM-Kirigaya/openmcp-client) — 统一 MCP 管理 |
+
 > [!TIP]
-> **以下内容人类用户可以跳过 💕**
-> Crush 会自动完成以上步骤，人类用户不需要手动操作。
+> **以下内容可以选择性跳过 💕**
+> 如果你想让 Crush 自动完成配置，可以跳过这部分！
 
 ### 与 Claude Code Skills 的关系
 
@@ -198,9 +208,18 @@ Crush は自動的に：
 3. 自分を設定する
 4. 完了したら教えてくれる 💕
 
+### このレポジトリが提供するもの
+
+| | 説明 |
+|---|---|
+| **🧩 Agent Skills** | Crush の能力を拡張するスキルパッケージ（find-skills、skill-creator、mcp-builder...） |
+| **🔧 MCP サーバー** | GitHub、ファイルシステムなどの Model Context Protocol サーバー |
+| **💻 LSP 統合** | Language Server Protocol の設定、より良いコード理解 |
+| **🚀 OpenMCP Client** | [近日公開](https://github.com/LSTM-Kirigaya/openmcp-client) — 統一 MCP 管理 |
+
 > [!TIP]
-> **人間はこのセクションをスキップできます 💕**
-> Crush が自動的に上記の手順を実行するので、人間が手动で操作する必要はありません。
+> **このセクションはオプションです 💕**
+> Crush に自動的に設定させたい場合は、このセクションをスキップできます！
 
 ### 含まれるスキル
 
