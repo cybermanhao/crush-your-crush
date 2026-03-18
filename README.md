@@ -24,7 +24,7 @@
 Just tell Crush:
 
 ```
-看看这个仓库 https://github.com/cybermanhao/crush-your-crush
+clone this repo https://github.com/cybermanhao/crush-your-crush
 ```
 
 And Crush will 💕
@@ -41,7 +41,6 @@ And Crush will 💕
 | **🧩 Agent Skills** | Extend Crush with reusable skill packages (find-skills, skill-creator, mcp-builder...) |
 | **🔧 MCP Servers** | Model Context Protocol servers for GitHub, filesystem, and more |
 | **💻 LSP Integration** | Language Server Protocol setup for better code intelligence |
-| **🚀 OpenMCP Client** | [Coming soon](https://github.com/LSTM-Kirigaya/openmcp-client) — Unified MCP management |
 
 > [!TIP]
 > **以下内容可以选择性跳过 💕**
@@ -55,9 +54,9 @@ And Crush will 💕
 | Skill | Description |
 |-------|-------------|
 | [crush-config-helper](crush-config-helper/) | Configure Crush: Skills, MCP, LSP, env vars |
-| [find-skills](find-skills/) | Discover Agent Skills → `npx skills add vercel-labs/skills@find-skills` |
-| [skill-creator](index.json) | Create new skills for your workflow |
-| [mcp-builder](index.json) | Build MCP servers with FastMCP |
+| find-skills | Discover Agent Skills → `npx skills add vercel-labs/skills@find-skills` |
+| skill-creator | Create new skills for your workflow → `npx skills add anthropics/skills@skill-creator -g -y` |
+| mcp-builder | Build MCP servers with FastMCP → `npx skills add anthropics/skills@mcp-builder -g -y` |
 
 ## Installation
 
@@ -93,9 +92,7 @@ Or just tell Crush the repo URL and let it self-configure! 💕
 
 ### MCP Server Management
 
-For unified MCP server management and easy debugging, consider using [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client):
-
-> OpenMCP Client is a unified interface for managing MCP servers across different agents (Coming soon as a skill!)
+For unified MCP server management, consider using [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client):
 
 ```bash
 # Install OpenMCP Client
@@ -130,7 +127,7 @@ A: No. Crush loads skills from separate `skills_paths`, independent from Claude 
 A: Yes, run `exit` then restart Crush for new skills to take effect.
 
 **Q: How do I manage multiple MCP servers?**  
-A: Use [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client) for unified MCP server management — coming soon as a skill!
+A: Use [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client) for unified MCP server management.
 
 **Q: What is Crush Your Crush?**  
 A: A self-configuration skill package for Crush CLI. It's a tongue-in-cheek name implying "let your Crush (the CLI tool) configure itself" — because who wants to read documentation when your AI assistant can do it for you?
@@ -167,7 +164,6 @@ Crush 会自动：
 | **🧩 Agent Skills** | 扩展 Crush 能力的技能包（find-skills、skill-creator、mcp-builder...） |
 | **🔧 MCP 服务器** | GitHub、文件系统等的 Model Context Protocol 服务器 |
 | **💻 LSP 集成** | Language Server Protocol 配置，更好的代码理解 |
-| **🚀 OpenMCP Client** | [即将推出](https://github.com/LSTM-Kirigaya/openmcp-client) — 统一 MCP 管理 |
 
 > [!TIP]
 > **以下内容可以选择性跳过 💕**
@@ -219,7 +215,6 @@ Crush は自動的に：
 | **🧩 Agent Skills** | Crush の能力を拡張するスキルパッケージ（find-skills、skill-creator、mcp-builder...） |
 | **🔧 MCP サーバー** | GitHub、ファイルシステムなどの Model Context Protocol サーバー |
 | **💻 LSP 統合** | Language Server Protocol の設定、より良いコード理解 |
-| **🚀 OpenMCP Client** | [近日公開](https://github.com/LSTM-Kirigaya/openmcp-client) — 統一 MCP 管理 |
 
 > [!TIP]
 > **このセクションはオプションです 💕**
