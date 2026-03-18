@@ -17,6 +17,10 @@
     Don't know how to configure Crush? Crush is a mature agent now — it should learn to configure itself!
 </p>
 
+<p align="center">
+    🔗 <strong>Official Crush:</strong> <a href="https://github.com/charmbracelet/crush">github.com/charmbracelet/crush</a>
+</p>
+
 ---
 
 ## Quick Start | [中文](#中文) | [日本語](#日本語)
