@@ -1,0 +1,53 @@
+{
+  "skill_name": "crush-config-helper",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "How do I add MCP servers to Crush? I want to add a GitHub MCP for managing issues and PRs",
+      "expected_output": "Should provide MCP configuration examples with type: http, url, and headers for GitHub MCP server",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need to configure LSP for Go and TypeScript in my Crush setup. Can you show me the config?",
+      "expected_output": "Should provide LSP configuration for both Go (gopls) and TypeScript (typescript-language-server)",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "How to install skills in Crush? I saw there's an anthropics/skills repo",
+      "expected_output": "Should explain skills directory location and provide git clone commands for Unix and Windows",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "My LSP isn't connecting. How do I debug LSP issues in Crush?",
+      "expected_output": "Should provide debug options including --debug flag, debug_lsp config, and logs command",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Where does Crush look for configuration files? I want to set up global config",
+      "expected_output": "Should explain the three config file locations with priority order (.crush.json, crush.json, ~/.config/crush/crush.json)",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "I want to add a filesystem MCP server that can access my project directory",
+      "expected_output": "Should provide stdio type MCP config with npx @modelcontextprotocol/server-filesystem example",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "How to disable certain tools in Crush? I don't want it to use bash",
+      "expected_output": "Should show options.disabled_tools configuration with example",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "What's the difference between the three MCP transport types (stdio, http, sse)?",
+      "expected_output": "Should explain each transport type and when to use each one",
+      "files": []
+    }
+  ]
+}
