@@ -1,4 +1,4 @@
-# Crush Skills
+# Crush Your Crush
 
 面向 [Crush](https://github.com/charmbracelet/crush) 用户的实用技能集合。
 
@@ -15,7 +15,7 @@
 在 Crush 中运行：
 
 ```bash
-git clone https://github.com/cybermanhao/crush-skills.git "$env:LOCALAPPDATA\crush\skills"
+git clone https://github.com/cybermanhao/crush-your-crush.git "$env:LOCALAPPDATA\crush\skills"
 ```
 
 ### 第二步：让 Crush 自己配置
@@ -61,13 +61,13 @@ Crush 从独立的 `skills_paths` 加载 skills，与 Claude Code **互不影响
 ### 方式一：直接克隆
 
 ```bash
-git clone https://github.com/cybermanhao/crush-skills.git "$env:LOCALAPPDATA\crush\skills"
+git clone https://github.com/cybermanhao/crush-your-crush.git "$env:LOCALAPPDATA\crush\skills"
 ```
 
 ### 方式二：使用 skills CLI
 
 ```bash
-npx skills add cybermanhao/crush-skills -a crush -y
+npx skills add cybermanhao/crush-your-crush -a crush -y
 ```
 
 ### 方式三：添加到 skills_paths
