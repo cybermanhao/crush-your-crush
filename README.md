@@ -1,7 +1,6 @@
 # Crush Your Crush 💕
 
 <p align="center">
-    <img width="500" alt="Crush Your Crush" src="https://github.com/user-attachments/assets/cf8ca3ce-8b02-43f0-9d0f-5a331488da4b" /><br />
     <a href="https://github.com/cybermanhao/crush-your-crush/releases"><img src="https://img.shields.io/github/release/cybermanhao/crush-your-crush?style=flat-square&logo=github&color=7C3AED" alt="Latest Release"></a>
     <a href="https://github.com/cybermanhao/crush-your-crush/stargazers"><img src="https://img.shields.io/github/stars/cybermanhao/crush-your-crush?style=flat-square&logo=github&color=8B5CF6" alt="Stars"></a>
     <a href="https://github.com/cybermanhao/crush-your-crush/network/members"><img src="https://img.shields.io/github/forks/cybermanhao/crush-your-crush?style=flat-square&logo=github&color=A78BFA" alt="Forks"></a>
@@ -16,10 +15,6 @@
 <p align="center">
     不会配置 Crush？不用担心，Crush 已经是个成熟的 Agent 了，应该学会自己配置自己！<br />
     Don't know how to configure Crush? Crush is a mature agent now — it should learn to configure itself!
-</p>
-
-<p align="center">
-    <img width="700" alt="Demo" src="https://github.com/user-attachments/assets/58280caf-851b-470a-b6f7-d5c4ea8a1968" />
 </p>
 
 ---
