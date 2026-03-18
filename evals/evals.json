@@ -1,0 +1,25 @@
+{
+  "skill_name": "crush-your-crush",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "I just installed crush, how do I set it up?",
+      "expected_output": "Should guide user through reading index.json, installing skills, and basic configuration"
+    },
+    {
+      "id": 1,
+      "prompt": "what skills are available for crush?",
+      "expected_output": "Should read index.json and list available skills with install commands"
+    },
+    {
+      "id": 2,
+      "prompt": "I want to add a filesystem MCP server to crush",
+      "expected_output": "Should provide MCP configuration JSON and instructions"
+    },
+    {
+      "id": 3,
+      "prompt": "crush doesn't recognize my skills",
+      "expected_output": "Should troubleshoot skills_paths and suggest fixes"
+    }
+  ]
+}

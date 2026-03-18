@@ -84,6 +84,42 @@ git clone https://github.com/cybermanhao/crush-your-crush.git "$env:LOCALAPPDATA
 }
 ```
 
+### Common Configurations
+
+#### Popular MCP Servers
+
+```json
+{
+  "mcp": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:/Users/You"]
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer $GH_TOKEN"
+      }
+    }
+  }
+}
+```
+
+#### Common LSP Configurations
+
+```json
+{
+  "lsp": {
+    "go": { "command": "gopls" },
+    "typescript": { "command": "typescript-language-server", "args": ["--stdio"] },
+    "python": { "command": "pylsp" },
+    "rust": { "command": "rust-analyzer" }
+  }
+}
+```
+
 ### FAQ
 
 **Q: Will this override my Claude Code skills?**  
@@ -91,6 +127,9 @@ A: No. Crush loads skills from separate `skills_paths`, independent from Claude 
 
 **Q: Do I need to restart after configuration?**  
 A: Yes, run `exit` then restart Crush for new skills to take effect.
+
+**Q: How do I manage multiple MCP servers?**  
+A: Consider using [OpenMCP Client](https://github.com/LSTM-Kirigaya/openmcp-client) for unified MCP server management.
 
 ### Contributing
 

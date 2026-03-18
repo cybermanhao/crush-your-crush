@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "name": "crush-your-crush",
+  "description": "Self-configuration skills for Crush",
+  "skills": [
+    {
+      "name": "crush-config-helper",
+      "description": "Configure Crush: Skills, MCP, LSP, environment variables",
+      "path": "crush-config-helper",
+      "type": "skill",
+      "required": true,
+      "community_url": null,
+      "install_command": null
+    }
+  ],
+  "community_projects": [
+    {
+      "name": "find-skills",
+      "description": "Discover community skills from skills.sh",
+      "type": "community-skill",
+      "url": "anthropics/skills@find-skills",
+      "install_command": "npx skills add anthropics/skills@find-skills -a crush -y"
+    },
+    {
+      "name": "openmcp-client",
+      "description": "Unified MCP client - manage all MCP servers in one place",
+      "type": "mcp-tool",
+      "url": "https://github.com/LSTM-Kirigaya/openmcp-client",
+      "install_command": "npm install -g openmcp-client"
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Build MCP servers with FastMCP",
+      "type": "community-skill",
+      "url": "anthropics/skills@mcp-builder",
+      "install_command": "npx skills add anthropics/skills@mcp-builder -a crush -y"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Create and improve skills",
+      "type": "community-skill",
+      "url": "anthropics/skills@skill-creator",
+      "install_command": "npx skills add anthropics/skills@skill-creator -a crush -y"
+    },
+    {
+      "name": "golang-pro",
+      "description": "Go best practices and patterns",
+      "type": "community-skill",
+      "url": "jeffallan/claude-skills@golang-pro",
+      "install_command": "npx skills add jeffallan/claude-skills@golang-pro -a crush -y"
+    },
+    {
+      "name": "bubbletea",
+      "description": "Bubble Tea TUI framework for Go",
+      "type": "community-skill",
+      "url": "ggprompts/tfe@bubbletea",
+      "install_command": "npx skills add ggprompts/tfe@bubbletea -a crush -y"
+    },
+    {
+      "name": "golang-testing",
+      "description": "Go testing strategies and patterns",
+      "type": "community-skill",
+      "url": "affaan-m/everything-claude-code@golang-testing",
+      "install_command": "npx skills add affaan-m/everything-claude-code@golang-testing -a crush -y"
+    }
+  ],
+  "metadata": {
+    "maintainer": "cybermanhao",
+    "repository": "https://github.com/cybermanhao/crush-your-crush",
+    "license": "MIT",
+    "skills_sh": "https://skills.sh/cybermanhao/crush-your-crush"
+  }
+}
